@@ -1,5 +1,5 @@
 # Web APIs Challenge: Code Quiz
-## Module 4 Challenge
+Module 4 Challenge
 
 ## Acceptance Criteria
 * GIVEN I am taking a code quiz
