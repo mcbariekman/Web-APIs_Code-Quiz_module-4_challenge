@@ -1,3 +1,14 @@
+body {
+    background-color: #5e5c5c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+}
+
 .main-wrapper{
     font-size: 30px;
     text-shadow: 3px 3px 3px #838383;
@@ -11,14 +22,18 @@
 
 h1 {
     font-family: "Bungee", sans-serif;
+    font-size: 40pt;
 }
 
 h2 {
     font-family: "Dokdo", sans-serif;
+    font-size: 50pt;
+    margin-bottom: 5%;
 }
 
 p {
     font-family: "Inconsolata", sans-serif;
+    margin-bottom: 15%;
 }
 
 .quiz-container{
