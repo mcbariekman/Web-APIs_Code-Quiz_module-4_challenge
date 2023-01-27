@@ -15,10 +15,8 @@ Module 4 Challenge
 * THEN I can save my initials and score
 
 ## Links
-* Application Deployment URL 
-https://mcbariekman.github.io/Web-APIs_Code-Quiz_module-4_challenge/
+![Deployement](https://mcbariekman.github.io/Web-APIs_Code-Quiz_module-4_challenge/)
 
-* Repository
-https://github.com/mcbariekman/Web-APIs_Code-Quiz_module-4_challenge
+![Repository](https://github.com/mcbariekman/Web-APIs_Code-Quiz_module-4_challenge)
 
 ## Screenshot
