@@ -3,58 +3,24 @@
 <Html Lang="En" Dir="Ltr">
   <Head>
     <Meta Charset="Utf-8" />
-    <Title>Guess A Word Game JavaScript</Title>
-    <style type="text/css" src="./assets/styles.css"></style>
-    <script type="text/javascript" src="./assets/scripts.js"></script>
     <Meta Name="Viewport" Content="Width=Device-Width, Initial-Scale=1.0" />
+    <Title>Guess A Word Game JavaScript</Title>
+    <link rel="stylesheet" href="/assets/styles.css"></style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Bungee|Dokdo">
   </Head>
   <Body>
-    <Div Class="Wrapper">
-      <H1>Quiz</H1>
-      <Div Class="Quiz">
-        <Input Type="Text" Class="Typing-Input" Maxlength="1" />
-        <Div Class="Inputs"></Div>
-        <Div Class="Details">
-          <P Class="wrong-answers">--<Span></Span></P>
-          <P Class="right-answers">--<Span></Span></P>
-          <P Class="high-score">--<Span></Span></P>
-          <P Class="restart">--<Span></Span></P>
-        </Div>
-        <Button Class="Reset-Btn" onclick="">--</Button>                
-      </Div>
-    </Div>
-            <div class="modal-button-container">
-            </div>
-            <span>
-                <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
-                <label for="option-one" class="option" id="option-one-label"></label>
-            </span>
-
-
-            <span>
-                <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
-                <label for="option-two" class="option" id="option-two-label"></label>
-            </span>
-
-
-            <span>
-                <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
-                <label for="option-three" class="option" id="option-three-label"></label>
-            </span>
-
-
-            <span>
-                <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
-                <label for="option-four" class="option" id="option-four-label"></label>
-            </span>
+      <div class="main-wrapper">
+        <H1>Web APIs Challenge: Code Quiz</H1>
+        <div class="container" id="quiz-container">
+          <div id="home" class="flex-column flex-center">
+            <h2>Title 1</h2>
+            <a href="linkgoeshere.html" class="btn"><p>Play</p></a>
+            <a href="highscoresgohere.html" id="highscore-btn" class="btn"><p>High Scores</p><i class="fas fa-crown"></i></a>
         </div>
-
-        <div class="next-button-container">
-            <button onclick="handleNextQuestion()">Next Question</button>
-        </div>
-        </div>
-    </div>
-
+      </div>
+      </div>
+    <script type="text/javascript" src="/assets/script.js"></script>
+    <script type="text/javascript" src="/assets/questions.js"></script>
   </Body>
 </Html>
 
