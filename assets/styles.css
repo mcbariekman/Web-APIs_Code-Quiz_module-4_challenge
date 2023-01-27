@@ -1,5 +1,5 @@
 body {
-    background-color: #b1a4fb;
+    background-color: #d5cefa;
     overflow: auto;
     margin-bottom: 10px;
 }
@@ -32,7 +32,7 @@ h1 {
 h2 {
     font-family: "Dokdo", sans-serif;
     font-size: 16pt;
-    margin-bottom: 5%;
+    margin-bottom: 5pt;
 }
 
 p {
