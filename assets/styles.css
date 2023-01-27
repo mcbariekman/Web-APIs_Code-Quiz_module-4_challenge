@@ -1,5 +1,5 @@
 body {
-    background-color: #4e419b;
+    background-color: #b1a4fb;
 }
 
 * {
@@ -63,7 +63,13 @@ p {
 
 .btn:hover {
     cursor: pointer;
-    background: gray;
+    background: rgb(255, 255, 255);
     transition: transform 150ms;
     transform: scale(1.03);
 }
+
+.btn:[disabled]:hover {
+    cursor: not-allowed;
+    background: rgb(79, 79, 79);
+}
+
