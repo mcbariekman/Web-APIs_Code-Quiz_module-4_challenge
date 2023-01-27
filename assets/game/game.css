@@ -1,0 +1,10 @@
+.choice-container {
+    margin: 5pt;
+    width: 200px;
+    padding: 10pt;
+    height: fit-content;
+    border-radius: 50px;
+    border: solid #ffffff;
+    text-align: center;
+    background: linear-gradient(90deg,  rgb(0, 128, 128),rgb(145, 248, 229),rgb(0, 128, 128) 100%);
+}
